@@ -75,7 +75,7 @@
     <div class="clearfix">
         <!-- 侧边栏 -->
         <div class="sidebar">
-            <img src="您的照片.jpg" alt="Juncheng Zhou">
+            <img src="image/image1.JPG" alt="Juncheng Zhou">
             <h3>Juncheng Zhou</h3>
             <p>PH.D Candidate in NCSU BiroLab</p>
             <ul>
@@ -120,19 +120,122 @@
                 </p>
             </section>
 
-            <section id="projects">
-                <h2>Personal Information</h2>
-                <p>
-                    My current research focuses on surgical robotics and learning in simulation.
-                </p>
-            </section>
-
-            <section id="contact">
+            <section id="music-festival">
                 <h2>Music Festival</h2>
                 <p>
-                    My current research focuses on surgical robotics and learning in simulation.
+                    Here are some photos from the live I have attended.
                 </p>
+                <div class="photo-gallery">
+                    <div class="photo">
+                        <img src="image/image2.JPG" alt="Music Festival 1">
+                        <cite>Gabriel & Dresden, June 6, The Fruit in Durham</cite>
+                    </div>
+                    <div class="photo">
+                        <img src="image/image3.png" alt="Music Festival 2">
+                        <cite>Chase & Status, Sep 4, Bayou Music Center in Houston</cite>
+                    </div>
+                    <div class="photo">
+                        <img src="image/image4.JPG" alt="Music Festival 3">
+                        <cite>Sasha, Sep 28, Silo in Dallas</cite>
+                    </div>
+                    <div class="photo">
+                        <img src="image/image5.JPG" alt="Music Festival 4">
+                        <cite>Lost Frequencies, Storm Shanghai 2016</cite>
+                    </div>
+                </div>
             </section>
+            <style>
+                .photo-gallery {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                }
+                .photo {
+                    text-align: center;
+                    width: 23%; /* Ensures four images fit in a row */
+                }
+                .photo img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                .photo cite {
+                    display: block;
+                    margin-top: 5px;
+                    font-size: 0.9em;
+                    color: #555;
+                    font-style: italic;
+                }
+                @media screen and (max-width: 768px) {
+                    .photo {
+                        width: 48%; /* Two images per row on smaller screens */
+                    }
+                }
+                @media screen and (max-width: 480px) {
+                    .photo {
+                        width: 100%; /* One image per row on the smallest screens */
+                    }
+                }
+            </style>
+            
+            <section id="model-gallery">
+                <h2>Model Gallery</h2>
+                <p>
+                    Here are some of the models I have collected.
+                </p>
+                <div class="photo-gallery">
+                    <div class="photo">
+                        <img src="image/image6.PNG" alt="Model 1">
+                    </div>
+                    <div class="photo">
+                        <img src="image/image7.JPG" alt="Model 2">
+                    </div>
+                    <div class="photo">
+                        <img src="image/image8.JPG" alt="Model 3">
+                    </div>
+                    <div class="photo">
+                        <img src="image/image9.png" alt="Model 4">
+                    </div>
+                </div>
+            </section>
+            <style>
+                #model-gallery .photo-gallery {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                }
+                #model-gallery .photo {
+                    text-align: center;
+                    width: 23%; /* Ensures four images fit in a row */
+                }
+                #model-gallery .photo img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                #model-gallery .photo cite {
+                    display: block;
+                    margin-top: 5px;
+                    font-size: 0.9em;
+                    color: #555;
+                    font-style: italic;
+                }
+                @media screen and (max-width: 768px) {
+                    #model-gallery .photo {
+                        width: 48%; /* Two images per row on smaller screens */
+                    }
+                }
+                @media screen and (max-width: 480px) {
+                    #model-gallery .photo {
+                        width: 100%; /* One image per row on the smallest screens */
+                    }
+                }
+            </style>
+            
         </div>
     </div>
 </body>
