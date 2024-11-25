@@ -2,27 +2,138 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
+    <title>Juncheng Zhou</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一些有用的模型链接总汇</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- SEO 元数据 -->
+    <meta name="description" content="Juncheng Zhou">
+    <!-- 内联样式 -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* 侧边栏样式 */
+        .sidebar {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 250px;
+            box-sizing: border-box;
+            float: left;
+        }
+        .sidebar img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .sidebar h3, .sidebar p {
+            text-align: center;
+        }
+        .sidebar ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        /* 主体内容样式 */
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main-content h1, .main-content h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .main-content section {
+            margin-bottom: 40px;
+        }
+        /* 清除浮动 */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* 响应式处理 */
+        @media screen and (max-width: 768px) {
+            .sidebar, .main-content {
+                float: none;
+                width: 100%;
+                margin: 0;
+            }
+            .main-content {
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>一些有用的模型链接总汇</header>
-    <div class="container">
-         <div class="image-row">
-            <img class="image-bottom img-small" src="IMG_8558.PNG" alt="Image 1">
+    <div class="clearfix">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <img src="您的照片.jpg" alt="Juncheng Zhou">
+            <h3>Juncheng Zhou</h3>
+            <p>PH.D Candidate in NCSU BiroLab</p>
+            <ul>
+                <li><a href="Jzhou48@ncsu.edu">电子邮件</a></li>
+                <li><a href="https://github.com/aboutberlin">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/juncheng-zhou-888415259/">LinkedIn</a></li>
+                <!-- 添加更多社交链接 -->
+            </ul>
         </div>
 
-        
-        <p class="centered-text">
-            <a href="SD%20old%2005%20zaku%203/SD%2zaku3.html">Go to example page</a>
-        </p>
+        <!-- 主体内容 -->
+        <div class="main-content">
+            <section id="home">
+                <h1>Welcome!</h1>
+                <p>
+                    I am currently pursuing my Ph.D. degree in Mechanical Engineering at the 
+                    <a href="https://haosu-robotics.github.io/" target="_blank">Biomechatronics and Intelligent Robotics Lab</a>, 
+                    North Carolina State University, Raleigh, NC, USA. My advisor is Prof. Hao Su.
+                </p>
+                <p>
+                    My current research focuses on surgical robotics and learning in simulation.
+                </p>
+                <p>
+                    My other interests include electronic dance music production, plastic model making, vintage model collecting, 
+                    disassembling vintage electronic devices, and swimming.
+                </p>
+            </section>
 
-        <hr>
-        <p class="centered-text">
-            Last updated: 2012/10/29
-        </p>
+            <section id="about">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Ph.D. in Mechanical Engineering</strong>, North Carolina State University, Raleigh, NC, USA (Jan 2025 - Present)</li>
+                    <li><strong>M.S. in Electrical and Computer Engineering</strong>, Rice University, Houston, TX, USA (Aug 2023 - Dec 2024)</li>
+                    <li><strong>B.S. in Electronic Information Engineering</strong>, Sun Yat-sen University, Guangzhou, China (Aug 2019 - Jun 2023)</li>
+                </ul>
+            </section>
+
+            <section id="publications">
+                <h2>Research Interest</h2>
+                <p>
+                    My current research focuses on surgical robotics and learning in simulation.
+                </p>
+            </section>
+
+            <section id="projects">
+                <h2>Personal Information</h2>
+                <p>
+                    My current research focuses on surgical robotics and learning in simulation.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Music Festival</h2>
+                <p>
+                    My current research focuses on surgical robotics and learning in simulation.
+                </p>
+            </section>
+        </div>
     </div>
-    <footer>&copy; 2024 Your Name</footer>
 </body>
 </html>
